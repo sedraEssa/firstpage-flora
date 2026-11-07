@@ -13,9 +13,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
+    /* position: fixed;
     top: 0;
-    z-index: 3;
+    z-index: 3; */
     ul{
         display: flex;
         list-style: none;
@@ -316,7 +316,7 @@
     .imgcontainer{
         padding-top: 56px;
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
         gap: 31px;
         flex-wrap: wrap;
         .cardimg{
