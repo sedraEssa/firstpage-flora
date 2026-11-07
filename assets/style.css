@@ -650,14 +650,20 @@
         .items{
             padding-top: 42px;
             ul{
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                gap: 20px;
+                align-items: center;
+                overflow-x: auto;
+                list-style: none;
+                gap: 30px;
                 li{
                     font-size: 15px;
+                    cursor: pointer;
+                    white-space: nowrap;
                     &:hover{
                         padding-bottom: 7px;
                     }
+                }
+                &::-webkit-scrollbar {
+                display: none;
                 }
             }
         }
